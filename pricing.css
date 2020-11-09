@@ -1,0 +1,116 @@
+*{  
+   
+    margin: 0;   /* 外边距0*/
+    padding: 0;  /* 外边距0*/ 
+    
+}
+
+ 
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+background-color:#f5f5f5;
+
+}
+
+.price0{
+	padding: 70px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Pricing-Options{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.pricing-line {
+	height: 2px;
+	width: 10%;
+	background-color: #ff9b51;
+	margin-bottom: 30px;
+}
+
+.pricing-text{
+	color: rgba(0,0,0,0.5);
+	line-height: 1.7;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.price-list {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px 20px;
+	width: calc(100% - 40px);
+	align-items: flex-end;
+}
+
+.list {
+	width: 30%;
+	text-align: center;
+}
+.list-heading {
+	color: white;
+	background-color: #333333;
+	padding: 10px 0px;
+	margin-bottom: 1px;
+}
+.list-number {
+	padding: 10px 0px;
+	font-size: 3.5rem;
+	background-color: #333333;
+	color: white;
+	font-weight: 700;
+}
+.dollar {
+	font-weight: 600;
+	font-size: 1.7rem;
+}
+
+.list-title {
+	background-color: #333333;
+	color: rgba(255,255,255, 0.7);
+	
+	font-weight: 500;
+	font-size: 0.8rem;
+	padding-bottom: 20px;
+    border-bottom: 5px solid #ff9b51;
+}
+
+.has-no-border {
+	border: none;
+}
+
+.list-text {
+	color: rgba(0,0,0, 0.5);
+	font-size: 0.9rem;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	background-color: white;
+	margin-bottom: 1px;
+}
+
+.list-title2 {
+	color: white;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.8rem;
+	background-color: #ff9b51;
+}

@@ -1,0 +1,135 @@
+*{  
+   
+    margin: 0;   /* 外边距0*/
+    padding: 0;  /* 外边距0*/ 
+    
+}
+
+ 
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    position:relative;
+}
+
+
+
+.contact-content{
+	padding: 70px 0px;
+	display: flex;
+	flex-direction: column;
+padding: 40px 0px;
+    align-items: center;
+}
+
+.contact-heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.contact-line {
+	height: 2px;
+	width: 10%;
+	background-color: #ff9b51;
+	margin-bottom: 30px;
+}
+
+.contact-text {
+	color:  rgba(0,0,0,0.5);
+
+	line-height: 1.7;
+	margin-bottom: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px 20px;
+}
+
+.input {
+	width: 50%;
+    margin-bottom: 20px;
+}
+
+.inputNOW {
+	border: none;
+	width: calc(100% - 105px);
+	margin: 20px 40px;
+	padding: 10px 10px;
+	font-size: 1rem;
+	outline: none;
+	border-bottom: 2px solid #d6d6d6;
+}
+
+
+.message {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+
+
+.button {
+	width: 100%;
+}
+
+.submit {
+	padding: 10px 20px;
+	color: white;
+	font-weight: 600;
+	background-color: #ff9b51;
+	box-shadow: 0px 1px 2px #d6d6d6;
+}
+
+.footer {
+	background-color: black;
+	
+	width: 100%;
+	
+	position:fixed; 
+	left:0; 
+	bottom:0;
+}
+
+.footerdiv {
+	padding: 30px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.appicon {
+	margin: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+.appicon-link {
+	color: #d6d6d6;
+	font-size: 2rem;
+}
+
+
+
+
+
